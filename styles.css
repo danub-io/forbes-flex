@@ -1,0 +1,212 @@
+html {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;  
+}
+
+body {
+    margin: 0;
+    background-color: white;
+}
+
+/* /----header section----/ */
+header {
+    display: flex;
+    align-items: center;
+    height: 5rem;
+    width: 100vw;
+    background-color: lavender;
+    color: lavender;
+    border-bottom: 1px solid rgb(29, 29, 29);
+    position: fixed;
+    white-space: nowrap;
+    z-index: 100;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0;
+    width: 100vw;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(29, 29, 29);
+    font-weight: bold;
+}
+
+/* /----banner section----/ */
+#top-banner {
+    padding-top: 5rem;
+    display: flex;
+    justify-content: center;
+    height: 43.5rem;
+    background-image: url(https://i.ibb.co/88ZBgSJ/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+    align-items: flex-start;
+    align-content: right;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+#banner {
+    margin-left: 10%;
+    background-color: lavender;
+    opacity: 0.8;
+    max-width: 40%;
+    min-width: 12rem;
+    border: 1px solid rgb(29, 29, 29);
+    border-radius: 1%;
+}
+
+#banner h1 {
+    padding: 0 2rem 0 2rem;  
+    color: black;
+}
+
+#banner h3 {
+    padding: 0 1rem 0 1rem;
+}
+/* /----mission and vision section----/ */
+#mv-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    background-color: white;
+    margin-bottom: 2rem;
+}
+
+#mv-container h3 {
+    padding: 0;
+    color: black;
+}
+
+#mv-container h2 {
+    padding: 0;
+    color: black;
+}
+
+#mission {
+    width: 25rem;
+    margin: 1% 1% 0 1%;
+    padding: 1rem 1rem 1rem 1rem;
+    background-color: lavender;
+    text-align: center;
+}
+
+#vision {
+    width: 25rem;
+    margin: 1% 1% 0 1%;
+    padding: 1rem 1rem 1rem 1rem;
+    background-color: lavender;
+    text-align: center;
+}
+
+/* /----products section----/ */
+#products-container {
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+#prodbox {
+    display: inline-flex;
+    flex-wrap: wrap;
+    text-align: center;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.products h2 h3 {
+    max-width: 20rem;
+    padding: 0;
+    margin: 0; 
+}
+
+.products h3 {
+    text-align: left;
+    padding: 0 0.5rem 0 0.5rem;
+}
+
+.products {
+    max-width: 20rem;
+    margin: 0.25rem;
+    border: 0.5rem solid lavender;
+}
+
+.products img {
+    border-bottom: 0.5rem solid lavender;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+/* /----team section----/ */
+#team {
+    text-align: center;
+    background-color: lavender;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+#teambox {
+    display: inline-flex;
+    flex-wrap: wrap;
+    text-align: center;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.employee h2 h3 {
+    max-width: 16rem;
+    padding: 0;
+    margin: 0; 
+}
+
+.employee h3 {
+    text-align: left;
+    padding: 0 0.5rem 0 0.5rem;
+}
+
+.employee {
+    max-width: 16rem;
+    margin: 0.25rem;
+    border: 0.5rem solid rgb(255, 255, 255);  
+    background-color: white;
+
+}
+
+.employee img {
+    border-bottom: 0.5rem solid rgb(255, 255, 255);   
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+footer {
+    display: inline-flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-style: 300;
+    font-size: 0.75rem;
+    padding: 1rem 0 1rem 0;
+}
+
+/* /----footer section----/ */
+footer .fl {
+    margin-left: 2rem;
+}
+
+footer .fr {
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
